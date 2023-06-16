@@ -1,0 +1,28 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.logo-img {
+    width: 40px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .logo-title {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+  }
+  
+  
